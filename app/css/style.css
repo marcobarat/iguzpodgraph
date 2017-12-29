@@ -1,0 +1,94 @@
+/* Custom Styles  */
+
+.vimAreaLabel
+{
+    margin-top: 0.8rem;
+    margin-right: 30rem;
+    font-size: 2.5rem;
+}
+
+/* second plant */
+.vimAreaLogo2
+{
+    text-align: right;
+}
+
+.vimAreaLabel2
+{
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+    text-align: right;
+    margin-left: 30%;
+}
+
+.sapMPageHeader::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    border-top: 0.25rem solid #33AFB6;
+    z-index: 7;
+}
+
+section[id$='page0-cont'] {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-image: url("../../images/techedge_wp_hd_02.png");
+}
+
+.logoz{
+    width: 10%;
+}
+.lowerInput {
+    margin-bottom: 22px;
+}
+
+.lowerInput::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    border-top: 0.25rem solid #33AFB6;
+    z-index: 7;
+}
+
+.c3 text
+{
+    font-size: 0.8rem;
+    
+}
+
+text.c3-axis-y-label
+{
+    font-weight: bolder !important;
+}
+
+text.c3-axis-x-label
+{
+    font-weight: bolder !important;
+}
+
+.c3-lines-Standard .c3-line
+{
+    stroke-width: 4px;   
+}
+
+.c3-lines-Effettivo .c3-line
+{
+    stroke-width: 4px;
+}
+
+.labelAndon {
+    font-size: 1.4rem;
+}
+
+.textAndon {
+    font-size: 1.4rem;
+}
+.opacity {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.sapMImg {
+    padding-bottom: 0.4rem;
+}

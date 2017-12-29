@@ -1,0 +1,25 @@
+{
+    "undef": true,
+    "unused": false,
+    "globals": {
+        "Exception": false,
+        "window": false,
+        "module": false,
+        "$": false,
+        "jQuery": false,
+        "sap": false,
+        "console": false,
+        "document": false,
+        "btoa": false,
+        "atob": false,
+        "Uint8Array": false,
+        "ArrayBuffer": false,
+        "setTimeout": false,
+        "setInterval": false,
+        "clearInterval": false,
+        "navigator": false,
+        "alert": false,
+        "JustGage": false,
+        "vis": false
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "directory": "bower_components", 
+  "proxy": "http://sprite.techedge.corp:3128",
+  "https-proxy":"http://sprite.techedge.corp:3128",
+  "no-proxy":"*.techedge.corp;192.168.*"
+}

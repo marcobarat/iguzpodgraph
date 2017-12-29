@@ -1,0 +1,40 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:c="sap.ui.commons" xmlns="sap.m"
+          xmlns:l="sap.ui.layout" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:t="sap.ui.table"
+          xmlns:f="sap.ui.layout.form" xmlns:comp="effstd.component"
+          controllerName="effstd.controller.Main">
+    <Page
+        showHeader="true"
+        showNavButton="false" navButtonPress="onBack"
+        enableScrolling="false"
+        class="effstd">
+        <headerContent>
+            <HBox>
+                <Image
+                    src="images/techresize.jpg"
+                    densityAware="false"
+                    backgroundPosition="center">
+
+                </Image>
+            </HBox>		
+        </headerContent>
+
+	
+        <content>
+            
+            <VBox>
+
+                <VBox width="100%" class="lowerInput"></VBox>
+                <VBox height="100%" width="100%">
+                    <HBox>
+                        <Label text="Andon:" class="sapUiSmallMarginBegin sapUiSmallMarginEnd labelAndon"/>
+                        <Text text="{gingo>/shift}" class="sapUiSmallMarginEnd textAndon"/>
+                        <Label text="at" class="sapUiSmallMarginBegin sapUiSmallMarginEnd labelAndon"/>
+                        <Text text="{gingo>/datetime}" class="sapUiSmallMarginEnd textAndon"/>
+                    </HBox>
+                    <html:div id="chartBox" class="opacity" />
+                </VBox>
+            </VBox>
+
+        </content>
+    </Page>
+</mvc:View>

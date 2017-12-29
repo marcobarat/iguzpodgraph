@@ -1,0 +1,85 @@
+
+.materialButton {
+    display: inline-block;
+    /*margin: 0.3rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;*/
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+    border: solid 1px gray; 
+    text-align: center;    
+}
+
+.materialButton:hover {
+    box-shadow: 1px 6px 15px rgba(0,0,0,0.5);
+}
+
+.materialGreen {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.materialDefault {
+    background-color: #EAEAEA;
+    color: black;
+}
+
+.materialRed {
+    background-color: #F44336;
+    color: white;
+}
+
+.materialBlue {
+    background-color: #03A9F4;
+    color: white;
+}
+
+.materialRipple {
+    position: absolute;
+    background: rgba(0,0,0,.25);
+    border-radius: 100%;
+    transform: scale(0.2);
+    opacity:0;
+    pointer-events: none;
+    -webkit-animation: ripple .45s ease-out;
+    -moz-animation: ripple .45s ease-out;
+    animation: ripple .45s ease-out;
+}
+
+@-webkit-keyframes ripple {
+    from {
+        opacity:1;
+    }
+    to {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes ripple {
+    from {
+        opacity:1;
+    }
+    to {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+@keyframes ripple {
+    from {
+        opacity:1;
+    }
+    to {
+        transform: scale(2);
+        opacity: 0;
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "_version": "1.1.0",
+    "sap.app": {
+        "id": "effstd",
+        "type": "application",
+        "i18n": "locales/locale.properties",
+        "title": "{{effstdtitle}}",
+        "description": "{{effstd.description}}",
+        "applicationVersion": {
+            "version": "0.0.1"
+        },
+        "offline": true
+    },
+    "sap.ui": {
+        "_version": "1.1.0",
+        "technology": "UI5",
+        "icons": {
+            "icon": "",
+            "favIcon": "",
+            "phone": "",
+            "phone@2": "",
+            "tablet": "",
+            "tablet@2": ""
+        },
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": false
+        },
+        "supportedThemes": [
+            "sap_bluecrystal"
+        ]
+    },
+    "sap.ui5": {
+        "_version": "1.1.0",
+        "resources": {
+            "css": [{
+                    "uri": "css/style.css",
+                    "id": "customstyle"
+                }, {
+                    "uri": "css/normalize.css",
+                    "id": "normalize"
+                }
+            ]
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "models": {
+            "locale": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "effstd.locales.locale"
+                }
+            }
+        },
+        "dependencies": {
+            "minUI5Version": "1.30.0",
+            "libs": {
+                "sap.m": {
+                    "minVersion": "1.30.0"
+                },
+                "sap.ui.commons": {
+                    "minVersion": "1.30.0"
+                },
+                "sap.ui.layout": {
+                    "minVersion": "1.30.0"
+                }
+            }
+        },
+        "rootView": "effstd.view.App",
+        "routing": {
+            "config": {
+                "routerClass": "sap.m.routing.Router",
+                "viewPath": "effstd",
+                "controlId": "rootControl",
+                "controlAggregation": "pages",
+                "viewType": "XML"
+            },
+            "routes": [{
+                    "name": "main",
+                    "pattern": "",
+                    "target": "main"
+                }],
+            "targets": {
+                "main": {
+                    "viewName": "view.Main",
+                    "viewLevel": 0
+                }
+            }
+        },
+        "config": {
+            "remoteDS": ""
+        }
+    }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html manifest="manifest.appcache">
+    <head>
+        <title>Effettivo VS Standard</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <script src="/resources/sap-ui-core.js" id="sap-ui-bootstrap"
+                data-sap-ui-libs="sap.m,sap.ui.commons,sap.ui.table,sap.ui.layout"
+                data-sap-ui-theme="sap_goldreflection"
+                data-sap-ui-bindingSyntax="complex" data-sap-ui-compatVersion="edge"
+                data-sap-ui-resourceroots='{"effstd": "./"}'>
+        </script>
+
+        <link href="css/c3.min.css" rel="stylesheet" type="text/css" />
+        
+        <script src="libs/c3.min.js"></script>
+        
+        <script>
+            
+            jQuery.sap.require("sap/ui/thirdparty/d3");
+            
+            sap.ui.getCore().attachInit(function () {
+                new sap.ui.core.ComponentContainer({
+                    height: "100%",
+                    name: "effstd"
+                }).placeAt("content");
+            });
+        </script>
+
+    </head>
+
+    <body class="sapUiBody" role="application">
+        <div id="content"></div>
+    </body>
+
+</html>

@@ -1,0 +1,40 @@
+{
+    "name": "effstd",
+    "version": "0.1.0",
+    "description": "effstd",
+    "main": "index.html",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "compile": "grunt compile",
+        "build": "grunt build",
+        "run": "grunt",
+        "clean": "grunt clean",
+        "dist": "grunt dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://bitbucket.com/eltony81/effstd"
+    },
+    "author": "Antonio Di Fluri",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://bitbucket.com/eltony81/effstd/issues"
+    },
+    "homepage": "https://bitbucket.com/eltony81/effstd/issues#readme",
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-cli": "^1.2.0",
+        "grunt-contrib-clean": "^1.0.0",
+        "grunt-contrib-connect": "^1.0.1",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-contrib-jshint": "^1.0.0",
+        "grunt-contrib-watch": "^1.0.0",
+        "grunt-eslint": "^18.1.0",
+        "grunt-jsvalidate": "^0.2.2",
+        "grunt-openui5": "^0.8.1",
+        "grunt-sync": "^0.6.2",
+        "grunt-string-replace": "^1.2.1"
+    }
+}

@@ -1,0 +1,33 @@
+<Row>
+[{
+	"HOUR": "2017-12-12T12:12:13",
+	"STANDARD": "0",
+	"EFFECTIVE": "0",
+        "SHIFT": "Shift 2"
+}, {
+	"HOUR": "2017-12-12T14:13:14",
+	"STANDARD": "187",
+	"EFFECTIVE": "120",
+        "SHIFT": "Shift 2"
+}, {
+	"HOUR": "2017-12-12T16:22:15",
+	"STANDARD": "274",
+	"EFFECTIVE": "207",
+        "SHIFT": "Shift 2"
+}, {
+	"HOUR": "2017-12-12T18:12:15",
+	"STANDARD": "174",
+	"EFFECTIVE": "207",
+        "SHIFT": "Shift 2"
+}, {
+	"HOUR": "2017-12-12T22:13:16",
+	"STANDARD": "261",
+	"EFFECTIVE": "287",
+        "SHIFT": "Shift 2"
+}, {
+	"HOUR": "2017-12-13T01:00:10",
+	"STANDARD": "321",
+	"EFFECTIVE": "310",
+        "SHIFT": "Shift 2"
+}]
+</Row>
